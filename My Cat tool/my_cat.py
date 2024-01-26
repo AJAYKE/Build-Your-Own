@@ -4,7 +4,7 @@ import sys
 
 def printlines():
     for line in sys.stdin:
-        print(line)
+        print(line,end='')
 
 def printlineswithspaces():
     count = 0
@@ -22,9 +22,9 @@ def printlineswithoutspaces():
         stripped_line=line.strip()
         if stripped_line:
             count += 1
-            print(count, stripped_line)
+            print(count, stripped_line,end='')
         else:
-            print(stripped_line)
+            print(stripped_line,end='')
 
 
 files = sys.argv
