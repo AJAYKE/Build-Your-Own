@@ -96,7 +96,8 @@ for file in args.files:
 
 if not args.files:
     res = ""
-    if sys.stdin: #buffer lets you read the input in the binary form
+    if sys.stdin: #buffer lets you read the input in the binary
+
         content = sys.stdin.buffer.read()
         get_the_params(content)
         print(res, end ='\n')
