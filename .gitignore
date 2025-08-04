@@ -1,0 +1,17 @@
+node_modules
+.next
+.env
+.env.local
+build
+out
+.venv
+__pycache__/*
+*.pyc
+*.log
+*.lock
+
+package-lock.json
+.DS_Store
+outputs
+output
+dist/
